@@ -3,12 +3,12 @@ import config
 from binance.client import Client
 from binance.enums import *
 
-SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
+SOCKET = "wss://stream.binance.com:9443/ws/ltcusdt@kline_1m"
 
 RSI_PERIOD = 14
 RSI_OVERBOUGHT = 65
 RSI_OVERSOLD = 35
-TRADE_SYMBOL = 'ETHUSD'
+TRADE_SYMBOL = 'LTCUSD'
 TRADE_QUANTITY = 0.05
 
 closes = []
